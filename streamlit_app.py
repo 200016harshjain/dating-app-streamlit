@@ -320,10 +320,8 @@ st.header("Future Work and Conclusion")
 st.markdown(
     "The model is far from 'finished', the current logic for attractiveness and matching can definitely be tweaked and I can look into making the model more LGBTQ friendly."
 )
-st.markdown(
-    "The most common saying in modeling is that all models are wrong, however some are useful")
-    st.markdown("A useful insight from this modeling exercise would be that improved sex ratios are key to making better apps from a user perspective. The more important takeaway would be that modeling is an incredibly powerful skill,  knowing that we can partially replicate the complexities of human behaviour through a few lines of code is enough for me to learn more this field."
-)
-st.markdown(
-    "If you want to send me some feedback about this model, or talk about mathematical models in general feel free to contact me [here](https://www.linkedin.com/in/harshjain0016/) or [here](https://twitter.com/harshh_jainn)."
-)
+st.markdown("The most common saying in modeling is that all models are wrong, however some are useful")
+
+st.markdown("A useful insight from this modeling exercise would be that improved sex ratios are key to making better apps from a user perspective. The more important takeaway would be that modeling is an incredibly powerful skill,  knowing that we can partially replicate the complexities of human behaviour through a few lines of code is enough for me to learn more this field.")
+
+st.markdown("If you want to send me some feedback about this model, or talk about mathematical models in general feel free to contact me [here](https://www.linkedin.com/in/harshjain0016/) or [here](https://twitter.com/harshh_jainn).")
