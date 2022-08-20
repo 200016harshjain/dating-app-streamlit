@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import random
 import numpy as np
+import matplotlib
 import matplotlib.pyplot as plt
-import plotly.express as px
+
 from PIL import Image
 
 # headings
