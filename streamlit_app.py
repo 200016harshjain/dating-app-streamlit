@@ -199,16 +199,16 @@ def lorenz(arr):
 lorenz_curve = lorenz(total_matches)
 
 
+st.markdown("I'd recently written an [article](https://harshj.substack.com/p/why-dating-apps-need-to-suck-to-make) about the business model of dating apps.")
+st.markdown("A brief summary would be - dating apps monetize by offering services that allow people to get more matches. Men on average get very few matches on these apps and are 70 percent of the population on the app. I hypothesize that one big reason why men don't get matches on the app is the fact that the population ratios are skewed. I also suggest an alternative business model that is based on a incentive structure that improves the gender ratios and subsequently the user experience.")
+
+
 st.markdown(
-    "I'd recently written an [article](https://harshj.substack.com/p/why-dating-apps-need-to-suck-to-make) about the business model of dating apps. A brief summary would be - dating apps monetize by offering services that allow people to get more matches. Men on average get very few matches on these apps and are 70 percent of the population on the app. I hypothesize that one big reason why men don't get matches on the app is the fact that the population ratios are skewed. I also suggest another business model based on a incentive structure that improves the ratios and subsequently the user experience."
+    "Another important idea that was presented in the article was dating apps treated as an economy, where the distributions of matches across people would be similar to distribution of wealth among people.  We can go on to see how 'unequal' the dating economy is using the Lorenz curve and the Gini coefficient."
 )
 
 st.markdown(
-    "Assume the dating app ecosystem was an economy, where the distributions of matches across people would be similar to distribution of wealth among people.  We can go on to see how 'unequal' the dating economy is using the Lorenz curve and the Gini coefficient."
-)
-
-st.markdown(
-    "Getting to the point, I made a model of a dating app. In the next section I'll explain the model and talk about a couple of interesting things I noticed and the last section is about letting you play around with the model."
+    "Tl dr - I made an interactive model of a dating app."
 )
 
 st.header("Model Details")
@@ -285,18 +285,18 @@ st.markdown(
 )
 
 image = Image.open("men-75.png")
-st.image(image, caption="Distribution of matches for men")
+st.image(image, caption="Distribution of matches for men when the sex ratio is 75:25")
 image = Image.open("women-75.png")
-st.image(image, caption="Distribution of matches for women")
+st.image(image, caption="Distribution of matches for women when the sex ratio is 75:25")
 
 
 st.markdown(
-    "Rerunning the same model with just one change, making the male-female population to 50:50 has some interesting results. The Gini coefficient drops to 0.10 which is a very equal economy. Infact the match distribution of men and women is almost the same too. This could be an indication of the hypothesis that all things the same, an improvement of sex ratio would lead to better outcomes for everyone on this app."
+    "Rerunning the same model with just one change, making the male-female population to 50:50 has some interesting results. The Gini coefficient drops to 0.10 which is a very equal economy. Infact the match distribution of men and women is almost the same too. This could be an indication of the fact that all things staying the same, an improvement of sex ratio would lead to better outcomes for everyone on the app."
 )
 image = Image.open("men-50.png")
-st.image(image, caption="Distribution of matches for men")
+st.image(image, caption="Distribution of matches for men when the sex ratio is 50:50")
 image = Image.open("women-50.png")
-st.image(image, caption="Distribution of matches for women")
+st.image(image, caption="Distribution of matches for women when the sex ratio is 50:50")
 
 
 st.header("Try it yourself!")
@@ -318,10 +318,11 @@ women_plot()
 st.header("Future Work and Conclusion")
 
 st.markdown(
-    "The model is far from 'finished', the current matching algorithm can definitely be tweaked and I can look into making the model more LGBTQ friendly."
+    "The model is far from 'finished', the current logic for attractiveness and matching can definitely be tweaked and I can look into making the model more LGBTQ friendly."
 )
 st.markdown(
-    "The most common saying in modeling is that all models are wrong, however some are useful. A useful insight from this modeling exercise would be that improved sex ratios are key to making better apps from a user perspective. The most important takeaway would be that modeling is an incredibly powerful skill,  knowing that we can partially replicate the complexities of human behaviour through a few lines of code is enough for me to learn more this field."
+    "The most common saying in modeling is that all models are wrong, however some are useful")
+    st.markdown("A useful insight from this modeling exercise would be that improved sex ratios are key to making better apps from a user perspective. The more important takeaway would be that modeling is an incredibly powerful skill,  knowing that we can partially replicate the complexities of human behaviour through a few lines of code is enough for me to learn more this field."
 )
 st.markdown(
     "If you want to send me some feedback about this model, or talk about mathematical models in general feel free to contact me [here](https://www.linkedin.com/in/harshjain0016/) or [here](https://twitter.com/harshh_jainn)."
