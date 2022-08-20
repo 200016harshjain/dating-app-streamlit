@@ -200,7 +200,7 @@ lorenz_curve = lorenz(total_matches)
 
 
 st.markdown(
-    "I'd recently written an [article](https://harshj.substack.com/p/why-dating-apps-need-to-suck-to-make) about the business model of dating apps. A brief summary would be - dating apps monetize by offering services that allow people to get more matches. Men on average get very few matches on these apps and are 70 percent of the population on the app. I hypothesize that one big reason why men don't get matches on the app is the fact that the population ratios are skewed. I also suggest another business model based on a different incentive structure."
+    "I'd recently written an [article](https://harshj.substack.com/p/why-dating-apps-need-to-suck-to-make) about the business model of dating apps. A brief summary would be - dating apps monetize by offering services that allow people to get more matches. Men on average get very few matches on these apps and are 70 percent of the population on the app. I hypothesize that one big reason why men don't get matches on the app is the fact that the population ratios are skewed. I also suggest another business model based on a incentive structure that improves the ratios and subsequently the user experience."
 )
 
 st.markdown(
