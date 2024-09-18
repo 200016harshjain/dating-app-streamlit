@@ -57,7 +57,7 @@ women_population = int(women_percent * population * 0.01)
 # defining the main simulate function
 
 
-@st.cache(persist="True")
+@st.cache(persist="disk")
 def simulate(
     matches_per_day_men,
     matches_per_day_women,
@@ -309,9 +309,6 @@ st.write("Simulated Gini Coefficient : ", gini(total_matches))
 
 
 st.markdown("Below are the plots of the distribution of matches for men and women")
-st.set_option(
-    "deprecation.showPyplotGlobalUse", False
-)  # just copied this to prevent a warning from occuring
 men_plot()
 women_plot()
 
